@@ -1,0 +1,26 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "BasicMontageSequenceManager",
+	"Description": "A simple component for handling animation montages playback.",
+	"Category": "Other",
+	"CreatedBy": "Rodrigo Mello",
+	"CreatedByURL": "https://www.youtube.com/@RodrigoMelloUnreal",
+	"DocsURL": "https://drive.google.com/file/d/11GXIy1xP91ThZurxzVcbgcFjQmym1RZr/view?usp=share_link",
+	"MarketplaceURL": "",
+	"SupportURL": "https://www.youtube.com/@RodrigoMelloUnreal",
+	"EngineVersion": "4.27.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "BasicMontageSequenceManager",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	]
+}
