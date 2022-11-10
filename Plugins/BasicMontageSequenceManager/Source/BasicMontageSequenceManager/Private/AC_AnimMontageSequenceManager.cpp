@@ -45,7 +45,7 @@ void UAC_AnimMontageSequenceManager::BeginPlay()
 
 	ComboMap.Empty();
 
-	AnimInstance->OnMontageEnded.AddDynamic(this, &UAC_AnimMontageSequenceManager::SERVER_OnMontageEnded);
+	AnimInstance->OnMontageBlendingOut.AddDynamic(this, &UAC_AnimMontageSequenceManager::SERVER_OnMontageEnded);
 
 	ComboMapBeginPlay();
 
